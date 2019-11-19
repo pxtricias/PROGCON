@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-30 09:51:21 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLU43VjBCUU47MjAxOS0xMC0yOTswOTo1MTowNSBBTTsyNzUx"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLU43VjBCUU47MjAxOS0xMC0yOTsxMDozMjowMiBBTTszOzI4NDk="/>
+        <attribute name="edited" value="cGF0cmljaWE7QUNFUjE0LVdJTkRPV1MxOzIwMTktMTAtMzA7MDk6NTE6MjEgQU07MTszMjQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;THIS IS A PROGRAM TO GET THE SUM OF TWO NUMBERS&quot;" newline="True"/>
+            <declare name="NUMBER1" type="Integer" array="False" size=""/>
+            <declare name="NUMBER2" type="Integer" array="False" size=""/>
+            <declare name="ANSWER" type="Integer" array="False" size=""/>
+            <output expression="&quot;PLEASE INPUT THE VALUE OF THE FIRST NUMBER&quot;" newline="True"/>
+            <input variable="NUMBER1"/>
+            <output expression="&quot;PLEASE INPUT THE VALUE OF THE SECOND NUMBER&quot;" newline="True"/>
+            <input variable="NUMBER2"/>
+            <assign variable="ANSWER" expression="NUMBER1 + NUMBER2"/>
+            <output expression="&quot;YOUR ANSWER IS&quot;" newline="True"/>
+            <output expression="ANSWER" newline="True"/>
+            <output expression="&quot;WOULD YOU LIKE TO TRY AGAIN?&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

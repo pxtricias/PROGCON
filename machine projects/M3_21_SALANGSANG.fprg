@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="patricia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-30 10:05:25 AM"/>
+        <attribute name="created" value="cGF0cmljaWE7QUNFUjE0LVdJTkRPV1MxOzIwMTktMTAtMzA7MDk6NTY6MjYgQU07MzE1MQ=="/>
+        <attribute name="edited" value="cGF0cmljaWE7QUNFUjE0LVdJTkRPV1MxOzIwMTktMTAtMzA7MTA6MDU6MjUgQU07MzszMjQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;THIS IS A PROGRAM THAT WILL DETERMINE WHETHER A NUMBER IS ODD OR EVEN&quot;" newline="True"/>
+            <output expression="&quot;PLEASE INDICATE THE VALUE OF A NUMBER&quot;" newline="True"/>
+            <declare name="NUMBER" type="Integer" array="False" size=""/>
+            <input variable="NUMBER"/>
+            <if expression="NUMBER %2 = 0">
+                <then>
+                    <output expression="&quot;THE ANSWER IS&quot;" newline="True"/>
+                    <output expression="&quot;EVEN&quot;" newline="True"/>
+                    <output expression="&quot;WOULD YOU LIKE TO TRY AGAIN?&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;THE ANSWER IS&quot;" newline="True"/>
+                    <output expression="&quot;ODD&quot;" newline="True"/>
+                    <output expression="&quot;WOULD YOU LIKE TO TRY AGAIN?&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

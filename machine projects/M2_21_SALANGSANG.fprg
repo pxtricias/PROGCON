@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-30 09:55:06 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLU43VjBCUU47MjAxOS0xMC0yOTsxMDozMjoxNSBBTTsyNzQz"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLU43VjBCUU47MjAxOS0xMC0yOTsxMTowMjo1NyBBTTsxOzI4NTU="/>
+        <attribute name="edited" value="cGF0cmljaWE7QUNFUjE0LVdJTkRPV1MxOzIwMTktMTAtMzA7MDk6NTU6MDYgQU07MjszMjU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;THIS IS A PROGRAM TO GET THE AREA OF A CIRCLE&quot;" newline="True"/>
+            <output expression="&quot;PLEASE INDICATE WHETHER THE GIVEN IS IS A RADIUS OR DIAMETER&quot;" newline="True"/>
+            <declare name="RADIUS" type="Integer" array="False" size=""/>
+            <declare name="DIAMETER" type="Integer" array="False" size=""/>
+            <declare name="AREA" type="Integer" array="False" size=""/>
+            <declare name="ANSWER" type="String" array="False" size=""/>
+            <input variable="ANSWER"/>
+            <if expression="ANSWER = &quot;RADIUS&quot;">
+                <then>
+                    <output expression="&quot;PLEASE INDICATE THE VALUE FOR RADIUS&quot;" newline="True"/>
+                    <input variable="RADIUS"/>
+                    <assign variable="AREA" expression="3.1415 * RADIUS ^ 2"/>
+                    <output expression="&quot;THE AREA IS&quot;" newline="True"/>
+                    <output expression="AREA" newline="True"/>
+                    <output expression="&quot;WOULD YOU LIKE TO TRY AGAIN?&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ANSWER = &quot;DIAMETER&quot;">
+                        <then>
+                            <output expression="&quot;PLEASE INDICATE THE VALUE FOR DIAMETER&quot;" newline="True"/>
+                            <input variable="DIAMETER"/>
+                            <assign variable="AREA" expression="3.1415 * (DIAMETER / 2) ^ 2"/>
+                            <output expression="&quot;THE AREA IS&quot;" newline="True"/>
+                            <output expression="AREA" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <output expression="&quot;WOULD YOU LIKE TO TRY AGAIN?&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
